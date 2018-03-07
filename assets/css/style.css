@@ -1,0 +1,63 @@
+header{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: turquoise;
+    height: 70px;
+    line-height: 70px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(5, 17, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#instructions {
+    margin-left: 10%;
+    width: 30%;
+    background-color: burlywood;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+}
+
+.buttons {
+    float: right;
+    margin-right: 10%;
+    margin-top: 20px;
+    position: relative;
+    width: 35%;
+}
+
+.images {
+    width: 75px;
+    height: 75px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+#randomNumber {
+    height: 150px;
+    width: 20%;
+    background-color: burlywood;
+    float: right;
+    margin-left: 70%;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+
+#playerScore {
+    height: 150px;
+    width: 20%;
+    background-color: black;
+    float: right;
+    margin-left: 70%;
+    margin-right: 30%;
+    margin-top: 162px;
+    position: absolute;
+    color: aliceblue;
+
+}

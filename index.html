@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crystal Collector</title>
+    <title>CrystalsCollector</title>
 
     <!--Stylesheets-->
 
@@ -15,6 +15,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
+
+    <header>CrystalsCollector!</header>
+
+    <div class="container">
+        <div id="instructions">
+            <p>A random number will be generated and given to you at the start of the game.</p>
+            <br>
+            <p>There are four crystals displayed. By clicking on a crystal, a specific amount will be added to your total score. The value of the crystals are hidden from you until you click on it.</p>
+            <br>
+            <p>To win the game, you must match your total score to the random number given to you. If your total score goes above the random number, you lose.</p>
+            <br>
+            <p>Each time you start the game, a new number will be generated and the values of the crystals will change.</p>
+            <br>
+            <p>Good Luck!!</p>
+        </div>
+
+        <div class="buttons">
+            <img  class="images" id="crystal1" src="./assets/images/crystal1.png" alt="Crystal 1">
+            <img  class="images" id="crystal2" src="./assets/images/crystal2.png" alt="Crystal 2">
+            <img  class="images" id="crystal3" src="./assets/images/crystal3.jpeg" alt="Crystal 3">
+            <img  class="images" id="crystal4" src="./assets/images/crystal4.png" alt="Crystal 4">
+
+        </div>
+
+        <div id="randomNumber">
+            <h1>Number To Match:</h1>
+        </div>
+
+        <div id="playerScore">
+                <h1>Your Score:</h1>
+        </div>
+            
+        <div id="winsAndLoses"></div>
+
+    </div>
 
 
 <body>
