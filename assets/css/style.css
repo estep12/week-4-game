@@ -71,6 +71,9 @@ header{
     display: inline;
     margin-left: 50%;
     margin-top: 314px;
+    background-color: teal;
+    width: 512px;
+    height: 31px;
 
 }
 
@@ -79,4 +82,7 @@ header{
     display: inline;
     margin-left: 50%;
     margin-top: 345px;
+    background-color: teal;
+    width: 512px;
+    height: 31px;
 }
