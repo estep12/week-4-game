@@ -10,8 +10,8 @@ var number2 = 1 + Math.floor(Math.random() * 12);
 var number3 = 1 + Math.floor(Math.random() * 12);
 var number4 = 1 + Math.floor(Math.random() * 12);
 
-$("#numWins").text(wins)
-$("#numLoses").text(wins)
+$("#numWins").text("Wins: " + wins)
+$("#numLoses").text("Loses: " + loses)
 
 function winner(){
     alert("You Won!");
@@ -20,12 +20,14 @@ function winner(){
 }
 
 function loser(){
-    alert("You Won!");
+    alert("You Lost...");
     loses++;
     $("#numLoses").text(loses)
 }
 
-
+function resetGame() {
+    
+}
 
 $("#randomNumber").text("Number to match: " + unknownNumber)
 console.log(unknownNumber)
@@ -33,23 +35,23 @@ console.log(unknownNumber)
 $("#crystal1").on("click", function() {
     number1;
     totalScore = totalScore + number1;
-    console.log(totalScore);
+    // console.log(totalScore);
     $("#playerScore").text("Your Score: " + totalScore)
     console.log(number1);
 });
 
 $("#crystal2").on("click", function() {
-    number1;
+    number2;
     console.log(number2);
 });
 
 $("#crystal3").on("click", function() {
-    number1;
+    number3;
     console.log(number3);
 });
 
 $("#crystal4").on("click", function() {
-    number1;
+    number4;
     console.log(number4);
 });
 

@@ -65,3 +65,18 @@ header{
     color: aliceblue;
 
 }
+
+#numWins {
+    position: absolute;
+    display: inline;
+    margin-left: 50%;
+    margin-top: 314px;
+
+}
+
+#numLoses {
+    position: absolute;
+    display: inline;
+    margin-left: 50%;
+    margin-top: 345px;
+}
