@@ -21,13 +21,13 @@ $("#numLoses").text("Loses: " + loses)
 
 
 function resetGame() {
-    var unknownNumber = Math.floor(Math.random() * 120) + 19;
+    unknownNumber = Math.floor(Math.random() * 101) + 19;
     console.log(unknownNumber)
     $("#randomNumber").text("Number to match: " + unknownNumber);
-    var number1 = 1 + Math.floor(Math.random() * 12);
-    var number2 = 1 + Math.floor(Math.random() * 12);
-    var number3 = 1 + Math.floor(Math.random() * 12);
-    var number4 = 1 + Math.floor(Math.random() * 12);
+    numberValues[1] = 1 + Math.floor(Math.random() * 12);
+    numberValues[2] = 1 + Math.floor(Math.random() * 12);
+    numberValues[3]  = 1 + Math.floor(Math.random() * 12);
+    numberValues[4]  = 1 + Math.floor(Math.random() * 12);
     totalScore = 0;
     $("#playerScore").text("Your Score: " + totalScore);
 
@@ -50,7 +50,6 @@ function loser(){
 function numberHandler(numberKey) {
     return function() {
      totalScore = totalScore + numberValues[numberKey];
-     console.log(totalScore);
      $("#playerScore").text("Your Score: " + totalScore);
  
      if (totalScore === unknownNumber) {

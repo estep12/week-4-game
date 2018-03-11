@@ -51,6 +51,7 @@ header{
     margin-left: 70%;
     margin-right: 30%;
     margin-top: 5%;
+    font-size: 24px;
 }
 
 #playerScore {
@@ -63,6 +64,7 @@ header{
     margin-top: 162px;
     position: absolute;
     color: aliceblue;
+    font-size: 24px;
 
 }
 
