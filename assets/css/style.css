@@ -70,19 +70,25 @@ header{
     position: absolute;
     display: inline;
     margin-left: 50%;
-    margin-top: 314px;
+    margin-top: 312px;
     background-color: teal;
     width: 512px;
     height: 31px;
-
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #numLoses {
     position: absolute;
     display: inline;
     margin-left: 50%;
-    margin-top: 345px;
+    margin-top: 343px;
     background-color: teal;
     width: 512px;
     height: 31px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
 }
