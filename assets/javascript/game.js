@@ -50,7 +50,7 @@ function winner(){
 function loser(){
     alert("You Lost...");
     loses++;
-    $("#numLoses").text("Loses " + loses)
+    $("#numLoses").text("Loses: " + loses)
     resetGame();
 }
 
@@ -75,6 +75,7 @@ function numberHandler(numberKey) {
 
 
 // $("#crystal1").on("click", function() {
+//     number1; 
 //     totalScore = totalScore + number1;
 //     $("#playerScore").text("Your Score: " + totalScore)
 //     console.log(number1);
