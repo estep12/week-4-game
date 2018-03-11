@@ -18,7 +18,14 @@ numberValues[4] = 1 + Math.floor(Math.random() * 12);
 $("#numWins").text("Wins: " + wins)
 $("#numLoses").text("Loses: " + loses)
 
+$("#randomNumber").text("Number to match: " + unknownNumber)
+console.log(unknownNumber)
 
+
+$("#crystal1").on("click", numberHandler(1));
+$("#crystal2").on("click", numberHandler(2));
+$("#crystal3").on("click", numberHandler(3));
+$("#crystal4").on("click", numberHandler(4));
 
 function resetGame() {
     unknownNumber = Math.floor(Math.random() * 101) + 19;
@@ -64,14 +71,7 @@ function numberHandler(numberKey) {
 
 
 
-$("#randomNumber").text("Number to match: " + unknownNumber)
-console.log(unknownNumber)
 
-
-$("#crystal1").on("click", numberHandler(1));
-$("#crystal2").on("click", numberHandler(2));
-$("#crystal3").on("click", numberHandler(3));
-$("#crystal4").on("click", numberHandler(4));
 
 
 // $("#crystal1").on("click", function() {
