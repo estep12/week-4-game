@@ -5,7 +5,7 @@ var totalScore = 0;
 var wins = 0;
 var loses= 0;
 
-var unknownNumber = Math.floor(Math.random() * 120) + 19;
+var unknownNumber = Math.floor(Math.random() * 101) + 19;
 
 var numberValues = {};
 
