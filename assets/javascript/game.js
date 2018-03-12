@@ -22,10 +22,10 @@ $("#randomNumber").text("Number to match: " + unknownNumber)
 console.log(unknownNumber)
 
 
-$("#crystal1").on("click", numberHandler(1));
-$("#crystal2").on("click", numberHandler(2));
-$("#crystal3").on("click", numberHandler(3));
-$("#crystal4").on("click", numberHandler(4));
+$("#crystal1").on("click", numberCounter(1));
+$("#crystal2").on("click", numberCounter(2));
+$("#crystal3").on("click", numberCounter(3));
+$("#crystal4").on("click", numberCounter(4));
 
 function resetGame() {
     unknownNumber = Math.floor(Math.random() * 101) + 19;
@@ -54,7 +54,7 @@ function loser(){
     resetGame();
 }
 
-function numberHandler(numberKey) {
+function numberCounter(numberKey) {
     return function() {
      totalScore = totalScore + numberValues[numberKey];
      $("#playerScore").text("Your Score: " + totalScore);
